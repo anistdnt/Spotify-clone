@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Ik Lamha</span>
+                    <span class="songlistplay"><span class="timestamp">4:18</span><i id="0" class="fa songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Ik Lamha</span>
+                    <span class="songlistplay"><span class="timestamp">4:18</span><i id="0" class="fa songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Ik Lamha</span>
+                    <span class="songlistplay"><span class="timestamp">4:18</span><i id="0" class="fa songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Ik Lamha</span>
+                    <span class="songlistplay"><span class="timestamp">4:18</span><i id="0" class="fa songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Ik Lamha</span>
+                    <span class="songlistplay"><span class="timestamp">4:18</span><i id="0" class="fa songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Ik Lamha</span>
+                    <span class="songlistplay"><span class="timestamp">4:18</span><i id="0" class="fa songItemPlay fa-circle-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <div class="masterSongImg">
+            <img src="covers/1.jpg" id="masterSongImg" alt="1">
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <input type="range" name="range" id="myProgressBar" placeholder="myProgressBar" value="0" min="0" max="100">
+        <div class="songInfo">
+            <img src="playing.gif" width="36px" alt="" id="gif"><span id="masterSongName">Ik Lamha:Azaan Sami Khan</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
